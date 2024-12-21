@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #FFDEE9, #B5FFFC);
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 90%;
+        }
+        .container h1 {
+            font-size: 2.5em;
+            color: #FF69B4;
+            margin-bottom: 10px;
+        }
+        .container p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+        .heart {
+            font-size: 3em;
+            color: #FF1493;
+            animation: heartbeat 1.5s infinite;
+        }
+        .button {
+            margin-top: 20px;
+        }
+        .button button {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background: #FF69B4;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s ease;
+        }
+        .button button:hover {
+            background: #FF1493;
+        }
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Thank You sooo much!</h1>
+        <p>To the best and cutest friend ever, for this mindblowing gift</p>
+        <p>Thanks a lot to a beautiful girl for this beautiful gift ❤</p>
+        <div class="heart">&#10084;</div>
+        <div class="button">
+            <button onclick="alert('You are amazing! Thank you for being you! This world is a better place with you in it. Never forget how special you are!')">Click Me!</button>
+        </div>
+    </div>
+</body>
+</html>
